@@ -222,3 +222,10 @@ DRAM-v.py annotate -i final-viral-combined-for-dramv.part_001.fa -v final-viral-
 DRAM.py annotate -i './*.fa' -o Glacier_CRISPR_linked_MAGs --threads 40 --min_contig_size 500 --checkm_quality ~/User/liupf/Projects_liupf/glacier_virome/MAGs-Non-TP-405ana/NonTP-MAGs_344_drep099_checkm_summary.txt --checkm_quality ~/User/liupf/Projects_liupf/glacier_virome/MAGs-TP-2661ana/TP-MAGs_1020_drep099_checkm_summary.txt  --gtdb_taxonomy ~/User/liupf/Projects_liupf/glacier_virome/MAGs-Non-TP-405ana/gtdbtk_out/NonTP-MAGs_344_drep099.bac120.summary.tsv --gtdb_taxonomy ~/User/liupf/Projects_liupf/glacier_virome/MAGs-TP-2661ana/MAGs_1020_drep099/gtdbtk_out/TP-MAGs_1020_drep099.bac120.summary.tsv --gtdb_taxonomy ~/User/liupf/Projects_liupf/glacier_virome/MAGs-TP-2661ana/MAGs_1020_drep099/gtdbtk_out/TP-MAGs_1020_drep099.ar122.summary.tsv --verbose --use_uniref
 
 ```
+
+#10, mapping to NCBI ref genome to assess the potential risk to public health of glacier viruses
+```
+#bowtie2
+
+
+```
