@@ -1,7 +1,7 @@
 
 #!/usr/bin/bash
 
-# by Pengfei Liu on 7/6/21.
+# by Pengfei Liu 
 
 #all file with full path
 
