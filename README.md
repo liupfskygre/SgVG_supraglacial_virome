@@ -1,3 +1,3 @@
-# Global supraglacial virome
+# Global supraglacial DNA virome
 
-#this projects host the scripts for the global supraglacial viromic project
+#this projects host the scripts for the global supraglacial DNA virome project
