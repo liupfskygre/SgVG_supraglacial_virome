@@ -137,9 +137,10 @@ bacphlip -i glacier_April1_final5k_vOTUs_Cryo21_Anta1.fna --multi_fasta
 #6, marcordiversity and microdiverstiy analysis of glacial viral communities
 ```
 #####marcordiversity 
-#mapping with bbmap2
-./bbmap_glacier_vOTU.sh mapping_metafile_TP85.txt 24  #see scripts for sh files
+##mapping with bowtie2
+./bowtie2_2_vgenome.sh mapping_vOTUs_TP85_metadata.txt 24  #see scripts for sh files
 
+#quality filtering
 
 #coverage  ==coverM
 conda activate coverm
@@ -147,7 +148,7 @@ coverm contig --methods tpm --bam-files *.sorted --min-covered-fraction 10 --out
 #input into R, microeco package for alpha and beta diversity analysis 
 
 ####microdiverstiy
-##mapping with bowtie2
+##mapping with bowtie2, same as above for
 ./bowtie2_2_vgenome.sh mapping_vOTUs_TP85_metadata.txt 60 #see scripts for sh files
 
 
