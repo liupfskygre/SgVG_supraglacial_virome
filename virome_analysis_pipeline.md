@@ -5,7 +5,7 @@
 #by Pengfei Liu, Lin Zang, Zhihao Zhang, Tao Ye
 
 
-#1, assembly of microbial and viral metagenomics by MEGAhit
+#1, assembly of microbial and viral metagenomics by megahit
 ```
 #
 #trimming reads 
