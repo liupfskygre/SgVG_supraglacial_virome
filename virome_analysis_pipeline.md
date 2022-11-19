@@ -227,6 +227,6 @@ DRAM.py annotate -i './*.fa' -o Glacier_CRISPR_linked_MAGs --threads 40 --min_co
 #10, mapping to NCBI ref genome to assess the potential risk to public health of glacier viruses
 ```
 #bowtie2
-
+https://github.com/liupfskygre/GSgVG_global-supraglacial_virome/blob/main/scripts/mapping_coverM_NCBI_ref.md
 
 ```
