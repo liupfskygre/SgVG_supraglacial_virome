@@ -17,7 +17,7 @@ done
 #
 #assembly with megahit
 
-megahit -1 "${read1}" -2 "${read2}" --k-min 41 --k-max 141 --k-step 10 --mem-flag 2 -m 0.5 --out-prefix "${line}" -t 40 --out-dir ./"${line}" &> "${line}"_megahit.log
+megahit -1 "${read1}" -2 "${read2}" --k-min 21 --k-max 141 --k-step 10 --mem-flag 2 -m 0.5 --out-prefix "${line}" -t 40 --out-dir ./"${line}" &> "${line}"_megahit.log
 
 ```
 
