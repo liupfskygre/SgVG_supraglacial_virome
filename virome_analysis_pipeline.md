@@ -1,8 +1,8 @@
-## virome analysis pipeline for the global glacier viruses
+## virome analysis pipeline for the global supraglacial viruses
 
-#main scripts for the analysis of the GGV catalog
+#main scripts for the analysis of the GSgVG catalog
 
-#by Pengfei Liu, Lin Zang, Zhihao Zhang, Tao Ye
+#by Pengfei Liu, Lin Zang, Zhihao Zhang, Huang Xinyu, Tao Ye
 
 
 #1, assembly of microbial and viral metagenomics by megahit
