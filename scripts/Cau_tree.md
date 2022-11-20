@@ -1,11 +1,6 @@
 
 ##
 
-#virus host information db
-```
-https://www.genome.jp/ftp/db/virushostdb/
-```
-
 
 #phylogeny of Caudovirales
 ```
@@ -19,6 +14,7 @@ vog release vog83 (same as ncbi release 83) were used in Low et al., 2019, since
 #1, Individual marker alignments were then trimmed to retain positions with less than 50% gaps using trimAl v.1.4 (ref. 90) and concatenated, filling in gaps for missing markers where necessary. Only genomes containing at least three markers and having data at >5% of alignment columns were retained.
 
 #2, The hit with the highest bit score was identified as the best hit and, in cases with multiple hits, the highest scoring sequence was selected. Only genomes with at least three markers were retained for further analysis.
+```
 
 #wkdir
 ```
