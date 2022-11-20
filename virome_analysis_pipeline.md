@@ -113,7 +113,7 @@ blastp -query glacier_total_vOTU_prot_fixheader.faa -db /home/PTPE2/User/liupf/P
 screen -r vpf-class
 /home/ptpe/software/vpfclass/vpf-class-x86_64 --data-index /home/ptpe/software/vpfclass/data/data-index.yaml -i ./glacier_total_virus_final123_5k_95-85.fna -o vpfclass-glacier-vOTU --workers 20 --chunk-size 20
 
-#Cau tree (see ** file for details)
+#Cau tree (see https://github.com/liupfskygre/GSgVG_global-supraglacial_virome/blob/main/scripts/Cau_tree.md file for details)
 
 
 #virrecall for NCLDVs
@@ -122,7 +122,7 @@ python viralrecall.py -i /home/PTPE2/User/liupf/Projects_liupf/glacier_virome/ma
 ```
 
 
-#5, in silico prediction of the life style of glacial viruses
+#5, in silico prediction of the life style of supraglacial viruses
 ```
 #checkV, see above output
 
