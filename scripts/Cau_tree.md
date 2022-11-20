@@ -162,9 +162,11 @@ esl-reformat -o VOG00022.clustal clustal VOG00022.align
 conda activate emboss6
 seqret -sequence VOG00022.clustal -outseq VOG00022.align.faa
 
+
+##note: Individual marker alignments were then trimmed to retain positions with less than 50% gaps using trimAl v.1.4 (ref. 90) and concatenated, filling in gaps for missing markers where necessary. Only genomes containing at least three markers and having data at >5% of alignment columns were retained.
+
 ```
 
-#1, Individual marker alignments were then trimmed to retain positions with less than 50% gaps using trimAl v.1.4 (ref. 90) and concatenated, filling in gaps for missing markers where necessary. Only genomes containing at least three markers and having data at >5% of alignment columns were retained.
 
 #4, trimming
 ```
@@ -181,7 +183,7 @@ done
 ```
 
 
-#4, concatnate genomes genomes
+#5, concatnate genomes genomes
 ```
 #PhyloSuite_v1.2.1_Mac
 #seqkit concat *_trim.fasta> concat_alignment.faa #not working with fill missing data with gaps
@@ -194,7 +196,7 @@ done
 ```
 
 
-#5, filtering out genomes
+#6, filtering out genomes
 
 #>5% of sequences
 ```
@@ -207,16 +209,15 @@ python fasta_drop.py concat_alignment.faa concat_alignment_5.faa 0.95
 
 #inlcuding ref 4112
 
-#ptpe is back
 cd /home/liupf/Projects/glacier_virome/Cau_tree/vog77hmm
 
 python /home/liupf/scripts/fasta_drop.py concat_alignment.faa concat_alignment_5.faa 0.95
 
 ```
 
+#7 
 #get a table of marker genes
 ##keep seq with 3 markers
-
 ```
 grep '>' concat_alignment_5.faa > concat_alignment_5_seqname.txt
 
@@ -253,11 +254,10 @@ done
 
 nano glacier_vOTUs_Cau.list
 
-# 6333
 ```
 
 
-#build a phyogeny tree
+#8 build a phyogeny tree
 ```
 #https://github.com/dongzhang0725/PhyloSuite
 #
