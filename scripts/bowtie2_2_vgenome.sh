@@ -45,9 +45,6 @@ echo "file sam exits"
 else
 echo "bam not present"
 
-#do mapping
-#/home/ptpe/software/bbmap/bbmap.sh ref="${contigs}" in="${trimmedR1}" in2="${trimmedR2}" xmtag=t ambiguous=random outm="${sample}".bam threads="${threads}" minid=0.99 -Xmx100g
-
 bowtie2 -x ./glacier_total_virus -1 "${trimmedR1}" -2 "${trimmedR2}" -S "${sample}".sam --threads "${threads}" --sensitive --no-unal
 
 
